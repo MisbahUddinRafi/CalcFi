@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    border: none;
+    background-color: hsl(0, 0, 30%);
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: hsl(0, 0, 40%);
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.2);
+}
+
+button:active {
+    background-color: hsl(0, 0, 50%);
+    transform: scale(1.1);
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.2);
+}
+
+
+
+#mainDivCase {
+    background-color: rgba(0, 0, 0, 0.61);
+    border: none;
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    max-width: 500px;
+    padding-top: 8px;
+    overflow: hidden;
+}
+
+#buttonDivCase {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+.operatorButton {
+    background-color: hsl(43, 100%, 30%);
+    color: black;
+}
+
+.operatorButton:hover {
+    background-color: hsl(43, 100%, 40%);
+}
+
+.operatorButton:active {
+    background-color: hsl(43, 100%, 50%);
+    transform: scale(1.1);
+
+}
+
+
+
+
+#displayField {
+    border: none;
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(134, 126, 126, 0.605);
+    color: white;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: left; 
+}
